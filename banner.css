@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Montserrat", sans-serif; 
+       font-family: "Nunito Sans", sans-serif; 
+       font-family: "Open Sans", sans-serif;
+       font-family: "Poppins", sans-serif;  */
+}
+.container{
+    padding: 0 30px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 2200px;
+}
+.Banner{
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.ban-flex-parent{
+    display: flex;
+    flex-direction: row;
+}
+.image-ban{
+    width: 100%;
+    padding: 48px;
+    position: relative;
+    min-height: 570px;
+    color: #fff;
+    background-color: #f4f4f4;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ban-backpic{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 68.5141% 68.4412%;
+    opacity: 1;
+}
+.image-ban-overlay{
+    /* border: 1px solid red; */
+    content: "";
+    background-color:( #000 , rgba(13,13,13));
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: (0.3 ,0.5);
+}
+.image-ban .ban-content{
+    text-align: center;
+    margin:  0 auto;
+    width: 100%;
+    position: relative;
+}
+.ban-content-div{
+    margin-bottom: 18px;
+    margin-top: 0;
+}
+.ban-headmedia{
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 100%;
+    width: 180px;
+}
+.ban-logo{
+    width: 100%;
+    min-width: 30px;
+    border-radius: 0%;
+    height: auto;
+    vertical-align: middle;
+    font-style: italic;
+    transform: scale(1);
+}
+.ban-para{
+    margin-top:  18px !important;
+}
+.ban-paramedia{
+    margin: 0 auto;
+}
+.ban-paratxt{
+    font-size: 2.0rem;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+    text-transform: none;
+    line-height: max(1.15,1.35);
+    font-family: "Poppins", sans-serif;
+}
+.ban-subpara{
+    margin-top: 18px !important;
+}
+.ban-subtxt{
+    margin:  0 auto;
+}
+.sub-paratxt{
+    font-size: 1.16rem;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+    text-transform: none;
+    line-height: max(1.15,1.5);
+    font-family: "Poppins", sans-serif;
+}
+.ban-contentbtn{
+    margin-bottom: 0 !important;
+}
+.content-btn{
+    background-color: transparent;
+    color: #fff;
+    box-shadow:  inset 0 0 0 1px ( #fff, #131313);
+    margin-bottom: 1px;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin: 0;
+    cursor: pointer;
+    margin: 0;
+    letter-spacing: 1px;
+    text-transform: none;
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid #fff;
+    height: auto;
+    line-height: 30px;
+    padding: 9px 26px;
+    /* min-width: 84px; */
+    border-radius: 0;
+    text-decoration: none;
+}
+.content-btn:hover{
+    background-color: #fff;
+    color: #131313;
+    transition: .2s all;
+}
+
+
+
+@media(max-width:768px){
+    .ban-paratxt{
+        font-size: 1.16rem;
+        line-height: max(1.15,1.5);
+    }
+    .sub-paratxt{
+        font-size: 1.04rem;
+        line-height: max(1.15,1.55);
+    }
+}
